@@ -1,0 +1,12 @@
+{
+  "name": "static",
+  "devDependencies": {
+    "unocss": "^0.59.2",
+    "@unocss/cli": "^0.59.2"
+  },
+  "scripts": {
+    "build": "unocss ../../packages/ui/**/*.jsx --config ../../packages/ui/uno.config.js --out-file public/ui/app.css",
+    "build-with-config-glob": "unocss --config ../../packages/ui/uno.config-with-glob.js --out-file public/ui/app.css"
+  },
+  "type": "module"
+}

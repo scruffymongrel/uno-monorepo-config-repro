@@ -1,0 +1,7 @@
+{
+  "name": "ui",
+  "devDependencies": {
+    "unocss": "^0.59.2"
+  },
+  "type": "module"
+}
